@@ -61,7 +61,8 @@ config :hello, HelloWeb.Endpoint,
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/hello_web/{live,views}/.*(ex)$",
-      ~r"lib/hello_web/templates/.*(eex)$"
+      ~r"lib/hello_web/templates/.*(eex)$",
+      ~r{lib/live_view_counter_web/live/.*(ex)$}
     ]
   ]
 
